@@ -16,7 +16,14 @@ COCAS+ is a large-scale clothes-changing person dataset with clothes templates f
 <p align="center"><img src="assets/clothes_static.jpg" width="800"/></p>
 
 ### Data Download
-_comming_ _soon_
+COCAS-Real2:  https://pan.baidu.com/s/1sHKKyO68DMVN1jlJdNEKaA  code: bl85
+ - images: person images
+ - templates: person image templates
+ - query.txt: image_path, template_path, pid, clothes_id, camera_id
+ - gallery.txt: image_path, pid, clothes_id, camera_id
+COCAS-Synthetic: https://pan.baidu.com/s/1YsJ_Jf4Y8wmGK6O4OXmjmQ  code: j3hi
+ - GTA_v2 & GTA_v2_2: synthetic person images
+ - cocas_v2_syn_train.txt: image_path, template_path(croped from person images), pid, clothes_id
 
 ## DualBCT-Net
 Given the proposed CTCC-ReID task and a new dataset COCAS+, in this section, we further introduce the Dual-Attention Biometric-Clothes Transfusion Network (DualBCT-Net) to address the CTCC-ReID problem. The overall frame-work of DualBCT-Net is shown as follow. Built upon a ViT architecture, DualBCT-Net contains three main compo-nents: Biometric Branch, Clothes Branch and Dual-Attention Fusion Module, where the Biometric Branch learns to extract biometric feature, such as body shape, contour sketch, hairstyle, from the query person image, while the Clothes Branch learns to extract discriminative clothes feature from the given clothes template, and the Dual-Attention Fusion Module is proposed to effectively fuse information from the two branches to obtain a unified representation that better matches the target image in gallery. The whole DualBCT-Net is trained in an end-to-end manner.
