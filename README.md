@@ -16,12 +16,13 @@ COCAS+ is a large-scale clothes-changing person dataset with clothes templates f
 <p align="center"><img src="assets/clothes_static.jpg" width="800"/></p>
 
 ### Data Download
-COCAS-Real2:  https://pan.baidu.com/s/1sHKKyO68DMVN1jlJdNEKaA  code: bl85
+1. COCAS-Real2:  https://pan.baidu.com/s/1sHKKyO68DMVN1jlJdNEKaA  code: bl85
  - images: person images
  - templates: person image templates
  - query.txt: image_path, template_path, pid, clothes_id, camera_id
  - gallery.txt: image_path, pid, clothes_id, camera_id
-COCAS-Synthetic: https://pan.baidu.com/s/1YsJ_Jf4Y8wmGK6O4OXmjmQ  code: j3hi
+
+2. COCAS-Synthetic: https://pan.baidu.com/s/1YsJ_Jf4Y8wmGK6O4OXmjmQ  code: j3hi
  - GTA_v2 & GTA_v2_2: synthetic person images
  - cocas_v2_syn_train.txt: image_path, template_path(croped from person images), pid, clothes_id
 
